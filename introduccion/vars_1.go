@@ -2,12 +2,21 @@ package main
 
 import "fmt"
 
-func main(){
-	// var nombre, apellido string = "Frank", "Montalvo"
-	// var nombre, apellido = "Frank", "Montalvo"
-	nombre, apellido := "Frank", "Montalvo"
-	edad, altura := 25, 1.75
+// Declaracion de variables.
+func main() {
 
-	fmt.Println(nombre, apellido)
-	fmt.Println(edad, altura)
+	// Declaracion de variables con su tipo de dato.
+	var nombre string
+	var edad int
+
+	nombre = "Frank"
+	edad = 25
+
+	// Declaracion de variables omitiendo su tipo de dato.
+	apellido := "Montalvo"
+	email := "fgmo@email.com"
+
+	var altura = 1.75
+
+	fmt.Println("Nombre:",nombre, "\nApellido:", apellido, "\nEdad:", edad, "\nEmail:", email, "\nAltura:", altura)
 }
