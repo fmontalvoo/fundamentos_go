@@ -17,9 +17,5 @@ func main() {
 
 	var altura = 1.75
 
-	fmt.Println(nombre)
-	fmt.Println(apellido)
-	fmt.Println(edad)
-	fmt.Println(email)
-	fmt.Println(altura)
+	fmt.Println("Nombre:",nombre, "\nApellido:", apellido, "\nEdad:", edad, "\nEmail:", email, "\nAltura:", altura)
 }
